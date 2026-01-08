@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+/* navigation bar */
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.nav_list a{
+    margin: 0 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #1F2937;
+    text-decoration: none;
+}
+.nav_list a:hover { 
+    color: lightgreen; 
+}
+
+.nav_btn{
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    background-color: lightgreen;
+    color: white;
+    border: 1px solid lightgreen;
+}
+.nav_btn:hover {
+    background-color: green;
+}
+
+/* header */
+.banner{
+    background-image: url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    color: white;
+    text-align: center;
+    padding: 100px 0 140px;
+}
+.banner_details{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.banner_header{
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255,255,255,0.15);
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: lightgreen;
+}
+.banner_dot{
+    width: 8px;
+    height: 8px;
+    background-color: #10B981;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.banner h1 span{
+    color:lightgreen;
+}
+.banner h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.banner p{
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 1.1rem;
+    color: rgba(255,255,255,0.8);
+}
+.banner_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner_btn1{
+    justify-content: space-between;
+    display: inline-flex;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    background-color: #30B868;
+    color: white;
+    border: 1px solid lightgreen;
+    margin-left: 10px;
+}
+.banner_btn2{
+    justify-content: space-between;
+    display: inline-flex;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    color: white;
+    border: 1px solid lightgreen;
+    margin-left: 10px;
+}
