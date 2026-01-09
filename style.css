@@ -125,7 +125,6 @@
 .notes{
     max-width: 1200px;
     margin: 0 auto;
-    /* padding: 0 20px; */
     text-align: center;
     padding: 80px 0;
     background-color: white;
@@ -168,4 +167,56 @@
 .card p {
     font-size: 15px;
     color: #627382;
+}
+
+/* Brain part */
+
+.brain{
+    max-width: 1200px;
+    padding: 80px 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 0 auto;
+}
+.brain_img{
+    border-radius: 12%;
+    width: 600px;
+    height: 600px;
+}
+.brain_msg{
+    flex: 1;
+}
+.brain_msg h4{
+    color: #30b868;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    display: block;
+}
+.brain_msg h2 {
+    font-size: 48px;
+    color: #001931;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.brain_msg p{
+    color: #627382;
+    margin-bottom: 30px;
+}
+
+.brain_list li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #001931;
+    font-weight: 500;
+}
+.brain_list img{
+    margin-right: 5px;
+    margin-top: 6px;
 }
