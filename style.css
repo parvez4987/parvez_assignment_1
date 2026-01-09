@@ -119,6 +119,12 @@
     border: 1px solid lightgreen;
     margin-left: 10px;
 }
+.banner_btn1:hover {
+    background-color: green;
+}
+.banner_btn2:hover{
+    background-color: green;
+}
 
 /* Notes */
 
@@ -225,13 +231,13 @@
 .early_access{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     text-align: center;
     justify-content: center;
+    margin-bottom: 60px;
 }
 .early_content{
     background-color: #F8F9FA;
-    width: 1200px;
     max-width: 100%;
     text-align: center;
     padding: 80px 40px;
@@ -254,4 +260,59 @@
 }
 .early_content button{
     margin-top: 15px;
+}
+
+/* Footer section */
+
+.footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #001931;
+    color: white;
+    padding: 60px 0 30px;
+    
+}
+.footer_all{
+    background-color: #001931;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+.footer_logo{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.footer_links h4{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+.footer_icon{
+    padding: 5px;
+    text-align: center;
+    display: flex;
+}
+.footer_icon p{
+    color: white;
+    margin-left: 15px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    border-radius: 100%;
+   
+}
+
+
+
+.copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.4);
 }
