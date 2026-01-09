@@ -220,3 +220,38 @@
     margin-right: 5px;
     margin-top: 6px;
 }
+/* Early  Access*/
+
+.early_access{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+    justify-content: center;
+}
+.early_content{
+    background-color: #F8F9FA;
+    width: 1200px;
+    max-width: 100%;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 4px;
+}
+.early_content h2{
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 15px;
+}
+,.early_content p{
+    color: #627382;
+    margin-bottom: 30px;
+}
+.early_footer{
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #627382;
+}
+.early_content button{
+    margin-top: 15px;
+}
