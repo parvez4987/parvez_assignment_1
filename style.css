@@ -296,16 +296,19 @@
     color: white;
 }
 .footer_icon{
-    padding: 5px;
+    padding: 15px;
     text-align: center;
     display: flex;
 }
 .footer_icon p{
-    color: white;
-    margin-left: 15px;
-    opacity: 0.8;
-    transition: opacity 0.3s;
+    height: 30px;
+    width: 30px;
+    color: #001931;
     border-radius: 100%;
+    margin-left: 5px;
+    background-color: white;
+    padding: 3px;
+    text-align: center;
    
 }
 
